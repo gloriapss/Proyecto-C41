@@ -1,3 +1,4 @@
+//Clase Form
 class Form{
     constructor(){
        this.input = createInput("Nombre");
@@ -48,6 +49,5 @@ class Form{
             player.updateCount(0);
             game.update(0);
         });
-
     }
 }
